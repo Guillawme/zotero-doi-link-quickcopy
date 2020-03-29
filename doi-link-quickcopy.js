@@ -11,7 +11,7 @@
     "browserSupport": "gcsbv",
     "configOptions": {"getCollections": false},
     "displayOptions": {"exportCharset": "UTF-8", "exportNotes": false, "exportFileData": false, "useJournalAbbreviation": false},
-    "lastUpdated": "2020-02-19 14:22:12"
+    "lastUpdated": "2020-03-29 14:36:52"
 }
 
 /*
@@ -47,7 +47,7 @@ function doExport() {
             var doiLink = "https://doi.org/" + item.DOI + "\n";
             Zotero.write(doiLink);
         } else {
-            Zotero.write("This item's DOI field is empty, or this item type does not have a DOI field.\n")
+            Zotero.write("This item's DOI field is empty, or this item type does not have a DOI field.\n");
         }
     }
 }
